@@ -1,0 +1,96 @@
+/* form rule */
+form {
+  border: 3px solid #038a03;
+  padding: 2.2rem;
+  width: 1202px;
+  margin: auto;
+}
+
+/* h2 rule */
+h2 {
+  text-align: center;
+}
+
+/* input selector rule */
+input {
+  margin: 1.05rem;
+}
+
+/* top class rule */
+div.top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.02rem;
+}
+
+/* btm class rule */
+div.btm {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.1rem;
+  justify-content: flex-start;
+}
+
+/* input fields css */
+#nameBox, #emBox {
+  width: 100%;
+}
+
+#addressBox, #addr2Box, #cityBox, #prvncBox, #postBox {
+  width: 100%;
+}
+
+#prncBox {
+  margin-bottom: 0.9rem;
+}
+
+/* labelt text */
+label {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* checkboxes selector */
+input[type=checkbox] {
+  margin-left: 31rem;
+}
+
+:root {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* button css */
+#Subbtn {
+  background-color: #038303;
+  color: #ffffff;
+  border: none;
+  padding: 0.61rem 1.01rem;
+  display: block;
+  margin-left: 35.02rem;
+}
+
+/* output div css */
+.output {
+  border: 2.04px solid #008000;
+  margin: 4.03rem auto;
+  padding: 1.02rem;
+  text-align: center;
+  /* width: 1181px; */
+  color: black;
+}
+
+table {
+  width: 500px;
+}
+
+td, tr, table {
+  border: 1px solid #008000;
+  border-collapse: collapse;
+}
+
+.op {
+  color: #008000;
+  font-weight: bold;
+}
