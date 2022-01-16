@@ -1,0 +1,26 @@
+#What is the definition of server port?
+-> A port is a physical clipping point using which an external device can be connected to the computer.
+
+Characterstics of ports are :
+
+->External devices are connected to a computer using cables and ports.
+->Ports are slots on the motherboard into which a cable of external device is plugged in.
+->Examples of external devices attached via ports are the mouse, keyboard, monitor, microphone, speakers, etc.
+
+#What is server port range?
+->Port numbers range from 0 to 65535, but only port numbers 0 to 1023 are reserved for privileged services and designated as well-known ports.
+
+#How many bits does number above represent?
+->Using the above formula you’ll see that the smallest four-digit number, 1000, requires 10 bits, and the largest four-digit number, 9999, requires 14 bits. The number of bits varies between those extremes. For example, 1344 requires 11 bits, 2527 requires 12 bits, and 5019 requires 13 bits.
+
+#State 10 common server ports?
+->Port 20 -> File Transfer Protocol (FTP) Data Transfer
+->Port 21 -> File Transfer Protocol (FTP) Command Control
+->Port 22 -> Secure Shell (SSH)
+->Port 23 -> Telnet - Remote login service, unencrypted text messages
+->Port 25 -> Simple Mail Transfer Protocol (SMTP) E-mail Routing
+->Port 53 -> Domain Name System (DNS) service
+->Port 80 -> Hypertext Transfer Protocol (HTTP) used in World Wide Web
+->Port 143 -> Internet Message Access Protocol (IMAP) Management of Digital Mail
+->Port 161 -> Simple Network Management Protocol (SNMP)
+->Port 443 -> HTTP Secure (HTTPS) HTTP over TLS/SSL
